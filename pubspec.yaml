@@ -1,7 +1,7 @@
 name: validated_numbers
 description: Validated positive, non-negative, and negative integer and finite double types for Dart.
 version: 0.1.0
-repository: https://github.com/sakamoto711/validated-numbers
+repository: https://github.com/mofua-suki/validated-numbers
 
 environment:
   sdk: ^3.14.0
