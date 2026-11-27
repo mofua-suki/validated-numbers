@@ -1,3 +1,7 @@
+## 0.1.2
+
+- Document how to validate a number's range and finiteness when using extension types.
+
 ## 0.1.1
 
 - Add a Japanese README and document the supported Dart SDK in both languages.
