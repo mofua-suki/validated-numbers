@@ -34,6 +34,11 @@ addition and subtraction operators validate their results. Other inherited
 arithmetic can return a plain `int` or `double`, which can be validated again
 with a constructor or conversion.
 
+These are Dart extension types. At runtime, `is` and `as` check only the
+underlying `int` or `double` type and do not validate range or finiteness.
+Use the constructor (for example, `PositiveDouble(value)`) to create a
+validated number, or call `PositiveDouble.validate(value)` for a boolean check.
+
 ## Development
 
 Run these commands from the repository root.
