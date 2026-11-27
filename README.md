@@ -1,6 +1,16 @@
 # Validated Numbers
 
+[日本語](https://github.com/mofua-suki/validated-numbers/blob/main/README.ja.md) · [pub.dev](https://pub.dev/packages/validated_numbers)
+
 Use a numeric type that encodes the range your API accepts.
+
+## Installation
+
+Requires Dart SDK 3.14.0 or later, below 4.0.0.
+
+```sh
+dart pub add validated_numbers
+```
 
 | Range | Integer | Finite double |
 | --- | --- | --- |
@@ -24,4 +34,14 @@ addition and subtraction operators validate their results. Other inherited
 arithmetic can return a plain `int` or `double`, which can be validated again
 with a constructor or conversion.
 
-Run `dart pub get`, `dart analyze`, and `dart test` from this package directory.
+## Development
+
+Run these commands from the repository root.
+
+```sh
+dart pub get
+dart analyze
+dart test
+```
+
+Run the example with `dart run example/validated_numbers_example.dart`.
